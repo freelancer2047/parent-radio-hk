@@ -1,0 +1,4 @@
+#!/usr/bin/pulseaudio -nF
+load-module module-native-protocol-unix socket=/tmp/pulse-socket auth-anonymous=1 auth-cookie-enabled=0
+load-module module-always-sink
+load-module module-null-sink
